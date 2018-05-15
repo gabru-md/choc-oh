@@ -2,6 +2,10 @@
 
 choc-oh is a tfjs based auto scrolling example using convolution neural networks
 
+## future changes
+
+make a chrome extension for the same
+
 ### Inspired From
-Tensorflow Pacman Example
+tensorflow pacman example
 
