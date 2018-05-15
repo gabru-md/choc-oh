@@ -58,42 +58,7 @@ header b {
 }
 
 /* Rules for the pacman game. */
-#pacman-container {
-  background: black;
-  padding: 25px 0 40px;
-}
-#logo {
-  background: url('https://storage.googleapis.com/tfjs-examples/assets/webcam-transfer-learning/bck.png');
-  background-repeat: no-repeat;
-  background-position-y: -5px;
-  margin: 0 auto;
-  position: relative;
-  transform: scale(1.2);
-  width: 554px;
-}
-#logo #pcm-c {
-  border-top: none;
-  margin: 0 auto;
-  position: relative;
-  top: 20px;
-}
-#logo-l {
-  background: #990;
-  display: none;
-  height: 2px;
-  left: 177px;
-  overflow: hidden;
-  position: absolute;
-  top: 157px;
-  width: 200px;
-}
-#logo-b{
-  background: #ff0;
-  height: 8px;
-  left: 0;
-  position: absolute;
-  width: 0;
-}
+
 
 /** Controls. **/
 .controller-panels {
@@ -255,85 +220,6 @@ header b {
 }
 
 /** Joystick panel. **/
-.joystick-panel {
-  margin-top: 13px;
-}
-.panel-cell .help-text {
-  font-size: 10px;
-  font-style: italic;
-  left: 0;
-  line-height: 1.1;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  top: 0;
-  position: absolute;
-}
-.panel-row-top .panel-cell-left {
-  background: url("./images/pointer.svg");
-  background-repeat: no-repeat;
-  background-size: 38%;
-  background-position: 98% 46%;
-}
-.panel-row-middle .panel-cell {
-  height: 132px;
-}
-.thumb-box {
-  display: inline-block;
-}
-.panel-row-middle .thumb-box {
-  margin-top: 18px;
-}
-.thumb-box-outer {
-  background: black;
-  border: 1px solid #585858;
-  border-radius: 4px;
-  box-sizing: border-box;
-  display: inline-block;
-  padding: 9px;
-  position: relative;
-  transition: box-shadow 0.3s;
-}
-[data-active="up"] .panel-row-top .thumb-box-outer,
-[data-active="down"] .panel-row-bottom .thumb-box-outer,
-[data-active="left"] .panel-cell-left .thumb-box-outer,
-[data-active="right"] .panel-cell-right .thumb-box-outer {
-  box-shadow: 0 0 4px 4px #ffaa00;
-}
-.thumb-box-inner {
-  border: 1px solid #585858;
-  border-radius: 4px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  width: 66px;
-}
-.thumb {
-  height: 66px;
-  transform: scaleX(-1);
-}
-.thumb-box-outer .record-button {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.thumb-box-outer .record-button span {
-  background: #111;
-  border: 1px solid #585858;
-  border-radius: 3px;
-  bottom: 9px;
-  color: #f8f8f8;
-  display: block;
-  font-size: 8px;
-  left: 9px;
-  position: absolute;
-  right: 9px;
-  opacity: 0.5;
-}
-
 /** Footer. **/
 #copyright {
   color: #f8f8f8;
@@ -349,4 +235,10 @@ header b {
   color: white;
   padding: 30px;
   line-height: 30px;
+}
+
+.divider {
+  height: 15px;
+  border-radius: 5px;
+  background-color: black;
 }

@@ -28,6 +28,8 @@ limitations under the License.
   <header>
     <b>Scroll Pages</b> using a <b>Neural Network</b>.
   </header>
+
+<div class="container">
   <div id="no-webcam">
       No webcam found. <br/>
       To use this demo, use a device with a webcam.
@@ -43,11 +45,11 @@ limitations under the License.
       <div class="panel-row big-buttons">
         <button id="train">
           <img width="66" height="66" src="./images/button.svg" />
-          <span id="train-status">TRAIN MODEL</span>
+          <span id="train-status">TRAIN</span>
         </button>
         <button id="predict">
           <img width="66" height="66" src="./images/button.svg" />
-          <span>PLAY</span>
+          <span>SCROLL</span>
         </button>
       </div><!-- /.panel-row -->
 
@@ -122,19 +124,17 @@ limitations under the License.
 
       <div class="panel-row panel-row-top">
 
-        <div class="panel-cell panel-cell-left panel-cell-fill">
-          <p class="help-text">
-          Click to add the <br/>
-          current camera <br/>
-          view as an example <br/>
-          for that control
-          </p>
-        </div><!-- ./panel-cell -->
-
-        <button class="record-button" id="up"/><span style="color:black; margin-left: 30px;">Scroll Up</span></button>
-        <button class="record-button" id="down"/><span style="color:black; margin-left: 30px;">Scroll Down</span></button>
-        <button class="record-button" id="stable"/><span style="color:black; margin-left: 30px;">Stay</span></button>
+        <button class="record-button" id="up"/><span style="margin-left:30px;padding: 10px;background-color: black;color: white;font-weight: bold;">Scroll Up</span></button>
+        <button class="record-button" id="down"/><span style="margin-left:30px;padding: 10px;background-color: black;color: white;font-weight: bold;">Scroll Down</span></button>
+        <button class="record-button" id="stable"/><span style="margin-left:30px;padding: 10px;background-color: black;color: white;font-weight: bold;">Stay</span></button>
   </div><!-- /#controller -->
+  </div>
+</div>
+
+</div>
+<div class="divider"></div>
+
+<iframe src="gabru-md.html" height="800px"></iframe>
 
   <script src="index.js"></script>
 </body>

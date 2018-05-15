@@ -17,7 +17,7 @@
 import * as tf from '@tensorflow/tfjs';
 
 const CONTROLS = ['up', 'down', 'stable'];
-const SCROLLER = 1;
+const SCROLLER = 3;
 
 export function init() {
   document.getElementById('controller').style.display = '';
