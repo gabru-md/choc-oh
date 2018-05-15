@@ -10,7 +10,7 @@ make a chrome extension for the same
 
 ```bash
 $ ~ git clone https://github.com/gabru-md/choc-oh
-$ ~ cd choc-oh
+$ ~ cd choc-oh/src
 $ ~ npm install
 $ ~ npm run watch
 ```
