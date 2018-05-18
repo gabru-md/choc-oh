@@ -1,5 +1,7 @@
 # choc-oh
 
+![choc-oh](https://github.com/gabru-md/choc-oh/blob/master/choc-oh.png?raw=true)
+
 choc-oh is a tfjs based auto scrolling example using convolution neural networks
 
 ## future changes
